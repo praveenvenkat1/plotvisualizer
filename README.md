@@ -2,7 +2,7 @@
 
 - Desktop application that allows users to load a CSV file and visualize the data using various types of plots (e.g., line, bar, histogram, etc.) 
 
-- Based on PyQt5, Matplotlib and Seaborn.
+- Based on PyQt5 and Matplotlib.
 
 
 
