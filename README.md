@@ -21,7 +21,6 @@ Before running the application, ensure that you have the following packages inst
 - Python 3.7+
 - PyQt5
 - Matplotlib
-- Seaborn
 - Pandas
 - SIP
 
