@@ -1,5 +1,4 @@
 PyQt5
 matplotlib
-seaborn
 pandas
 sip
