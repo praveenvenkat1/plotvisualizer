@@ -28,7 +28,58 @@ Before running the application, ensure that you have the following packages inst
 
 ## Getting Started
 
-### 1. Prerequisites
+### 1. Creating a Virtual Environment
+
+Before setting up the prerequisites, it is important to create a virtual environment for this project.
+
+***For Linux:***
+
+If pip is not in your system, run:
+
+```$ sudo apt-get install python-pip```
+
+Then install virtualenv:
+
+```$ pip install virtualenv```
+
+Then check if virtualenv has been successfully installed:
+
+```$ virtualenv --version```
+
+Now, we create a virtual environment:
+
+```$ virtualenv venv_name```
+
+After this, a folder named **venv_name** will be created. To activate this virtual environment:
+
+```$ source venv_name/bin/activate```
+
+To deactivate:
+
+```$ deactivate```
+
+***For Windows:***
+
+Make sure to have Python 3.7+ installed from the official Python website (www.python.org). 
+
+Then install the virtualenv package:
+
+```$ pip install virtualenv```
+
+Now, we create a virtual environment within the selected directory, where `myenv` is the name of the virtual environment:
+
+```$ python -m venv myenv```
+
+After this, a folder named **myenv** will be created. To activate this virtual environment:
+
+```$ myenv/Scripts/activate```
+
+To deactivate:
+
+```$ deactivate```
+
+
+### 2. Prerequisites
 
 Make sure to install the prerequisites from the 'requirements.txt' file:
 
